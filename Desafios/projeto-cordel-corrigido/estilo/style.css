@@ -40,7 +40,7 @@ header a, footer a {
     font-weight: bolder;
 }
 
-header :hover, footer a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
