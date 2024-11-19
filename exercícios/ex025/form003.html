@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p#grande{
+        font-weight: bold;
+        font-size: 2em;
+        margin: 2px;
+        
+    }
+</style>
+<body>
+    <h1>
+        Outros tipos de formulários
+    </h1>
+    <form action="cadastro.php">
+        <p id="grande">Padrão</p>
+
+        <p>
+        <label for="inome">Name:</label>
+        <input type="text" nome="nome" id="inome" required placeholder="your name here" >
+        </p>
+    
+    <p id="grande">Numérico</p>
+
+        <p>
+        <label for="iage">Age:</label>
+        <input type="number" nome="age" id="iage" placeholder="How old are you?" >
+        </p>
+
+        <p>
+        <label for="iheight">Height:</label>
+        <input type="number" nome="height" id="iheight" placeholder="How tall you are?(meters)" step="0.1" >
+        </p>
+
+        <p id="grande">Datas</p>
+
+        <p>
+            <label for="ibirth">Birth:</label>
+            <input type="date" nome="birth" id="ibirth">
+        </p>
+
+        <p id="grande">Horários</p>
+        <p>
+            <label for="itime">free time:</label>
+            <input type="time" nome="time" id="itime">
+        </p>
+        
+        <p>
+            <input type="submit" value="Send">
+            <input type="submit" value="Clean all">
+        </p>
+    </form>
+
+</body>
+</html>
