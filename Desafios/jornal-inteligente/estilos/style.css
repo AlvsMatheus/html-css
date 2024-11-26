@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* 
+Extra small devices (phones, 600px and down) 
+Small devices (portrait tablets and large phones, 600px and up) 
+Medium devices (landscape tablets, 768px and up) 
+Large devices (laptops/desktops, 992px and up) 
+Extra large devices (large laptops and desktops, 1200px and up) 
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+:root{
+    --cor1:#CA8D8B;
+    --cor2:#A08988;
+    --cor3:#F58480;
+    --cor4:#4B2F2E;
+
+}
+
+header {
+    background-image: linear-gradient(to top, #8b5756, #3a2423 );
+
+}
+header > h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav > ul > li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+div#tof{
+    width: 50%;
+}
+img{
+    width:50%;
+}
+
+body{
+    background-color: black;
+}
