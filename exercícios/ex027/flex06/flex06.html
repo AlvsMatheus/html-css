@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div.container{
+            display: flex;
+            flex-flow: row wrap;
+            align-content:flex-start;
+            background-color:cadetblue;
+            height: 400px;
+        }
+        div.children{
+            border: 1px solid black;
+            background-color: blueviolet;
+            color: white;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="children">a</div>
+        <div class="children">b</div>
+        <div class="children">c</div>
+        <div class="children">d</div>
+        <div class="children">e</div>
+        <div class="children">f</div>
+        <div class="children">g</div>
+        <div class="children">h</div>
+        <div class="children">i</div>
+        <div class="children">j</div>
+        <div class="children">k</div>
+        <div class="children">l</div>
+    </div>
+    
+</body>
+</html>
